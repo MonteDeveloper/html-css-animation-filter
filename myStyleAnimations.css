@@ -79,3 +79,16 @@
     filter: saturate(8);
     filter: sepia(60%);
 }
+
+/* ? Esercizio 9------------------------------ */
+
+.ex-9-img{
+    transition: border-radius 1.5s, filter 1.5s, scale 1.5s;
+}
+
+.ex-9-img:hover{
+    border-radius: 20px;
+    filter: saturate(8);
+    filter: sepia(60%);
+    scale: 1.5;
+}
