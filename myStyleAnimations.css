@@ -51,3 +51,10 @@
 .ex-5-square:active{
     scale: 1;
 }
+
+/* ? Esercizio 6------------------------------ */
+
+.ex-6-img:hover{
+    filter: grayscale();
+}
+
