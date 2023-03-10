@@ -125,3 +125,38 @@
         rotate: 0deg;
     }
 }
+
+/* ? Esercizio 12----------------------------- */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: borderMovementTop 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: borderMovementBot 2s linear;
+}
+
+@keyframes borderMovementTop {
+    0%{
+        margin-left: 0;
+    }
+    50%{
+        margin-left: calc(100% - 80px);
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+
+@keyframes borderMovementBot {
+    0%{
+        margin-right: 0;
+    }
+    50%{
+        margin-right: calc(100% - 100px);
+    }
+    100%{
+        margin-right: 0px;
+    }
+}
+
