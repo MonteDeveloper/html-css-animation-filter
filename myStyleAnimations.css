@@ -129,14 +129,14 @@
 /* ? Esercizio 12----------------------------- */
 
 .ex-12-button:hover .ex-12-top-white{
-    animation: borderMovementTop 2s linear;
+    animation: borderMovementTop12 2s linear;
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation: borderMovementBot 2s linear;
+    animation: borderMovementBot12 2s linear;
 }
 
-@keyframes borderMovementTop {
+@keyframes borderMovementTop12 {
     0%{
         margin-left: 0;
     }
@@ -148,7 +148,7 @@
     }
 }
 
-@keyframes borderMovementBot {
+@keyframes borderMovementBot12 {
     0%{
         margin-right: 0;
     }
@@ -160,3 +160,60 @@
     }
 }
 
+/* ? Esercizio 13----------------------------- */
+
+/* .ex-13-bottom-white, .ex-13-top-white{
+    background-color: red;
+} */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: borderMovementTop13 2s linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: borderMovementBot13 2s linear;
+}
+
+@keyframes borderMovementTop13 {
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: calc(200px - 60px);
+        margin-top: 0;
+    }
+    40%{
+        margin-left: calc(200px - 60px);
+        margin-top: 70px;
+    }
+    70%{
+        margin-top: 70px;
+        margin-left: -30px;
+    }
+    90%{
+        margin-left: -30px;
+        margin-top: 0;
+    }
+}
+
+@keyframes borderMovementBot13 {
+    0%{
+        margin-right: 0;
+    }
+    20%{
+        margin-right: 100px;
+        margin-bottom: 0;
+    }
+    40%{
+        margin-right: 100px;
+        margin-bottom: 70px;
+    }
+    70%{
+        margin-bottom: 70px;
+        margin-right: -60px;
+    }
+    90%{
+        margin-right: -60px;
+        margin-bottom: 0;
+    }
+}
